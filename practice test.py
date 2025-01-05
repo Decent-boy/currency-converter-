@@ -1,4 +1,4 @@
-def currentcy(usd):
+def currncy(usd):
     rs=usd*280
     print(f"PKR : {rs}")
 
@@ -7,7 +7,7 @@ while True:
         user=input("are you wnated to see currncey of pkr\ntype y: ")
         if user.lower().strip()=="y":
             usd=int(input("Enter usd dollors: "))
-            currentcy(usd)
+            currncy(usd)
         else:
             quit()
 
